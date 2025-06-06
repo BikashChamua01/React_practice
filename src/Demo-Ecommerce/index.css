@@ -1,0 +1,26 @@
+button {
+  padding: 10px 24px;
+  border-radius: 12px;
+  background-color: #f0fff4; /* very light green */
+  color: #2f855a; /* dark green text */
+  border: 2px solid #38a169; /* medium green border */
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(56, 161, 105, 0.2);
+  outline: none;
+}
+
+button:hover {
+  background-color: #38a169; /* medium green */
+  color: white;
+  transform: scale(0.95);
+  box-shadow: 0 6px 12px rgba(56, 161, 105, 0.3);
+  border-color: #2f855a;
+  transition: all 0.8s ease-in-out;
+}
+
+button:focus {
+  outline: none;
+}

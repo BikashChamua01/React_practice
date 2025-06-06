@@ -49,7 +49,7 @@ const RegistrationForm = () => {
               type="email"
               name="email"
               id="email"
-              placeholder="jogh@gmail.com"
+              placeholder="john@gmail.com"
               required
               onChange={(event) => handleChange(event)}
             />
